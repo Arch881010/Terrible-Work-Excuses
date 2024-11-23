@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pirate Adventure</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <h1>Ahoy, Matey!</h1>
+    <p>Welcome to the Pirate Adventure! Are ye ready to embark on a journey through the seven seas?</p>
+    <p id="actual">Well... err, ready to get your wildest excuse?</p>
+    <button onclick="getExcuse()">Aye, Captain!</button>
+    <div id="loading-screen" style="display:none;">Loading your excuse...</div>
+    <div id="excuse" style="display:none;">
+        <h2>Excuse</h2>
+        <p id="excuse-text">SCREAMING AND CREAMING</p>
+        <button onclick="reset()">Generate another one?</button>
+    </div>
+    <script src="./excuses.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
